@@ -1,9 +1,11 @@
-// # Snack 1
+//  Snack 1
 // Creare un array di oggetti:
 
 // Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 
 // Stampare a schermo la bici con peso minore.
+let minHeight= 0;
+
 const bikes = [
 {
     nome: "bicicetta1",
@@ -26,43 +28,17 @@ const bikes = [
     peso:"30kg",
 }
 ]
-
-let bike = bikes.find(bike => bike.peso == "10kg" );
-//console.log(bike);
+console.table(bikes[0].peso);
 
 
 
-
-const bikers =[
-    bicicletta1 = {
-        name: "one",
-        height:"15",
-    },
-    bicicletta2 = {
-        name: "two",
-        height:"10",
-    },
-    bicicletta3 = {
-        name: "three",
-        height:"25",
-    },
-    bicicletta4 = {
-        name: "four",
-        height:"30",
-    },
-]
-
-
- 
 
  
 
 
 
 
-
-
-// # Snack2
+//  Snack2
 //Creare un array di oggetti di squadre di calcio.
 //Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
 //Nome sarà l'unica proprietà da compilare, le altre saranno tutte settate a 0.
@@ -104,7 +80,7 @@ const players = [
     },
 ]
 
- console.table(players);
+// console.table(players);
 
 //Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti 
 // e stampiamo tutto in console.
