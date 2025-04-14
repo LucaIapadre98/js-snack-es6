@@ -37,14 +37,10 @@ console.log(bike);
 //Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
 //Nome sarà l'unica proprietà da compilare, le altre saranno tutte settate a 0.
 //Generare numeri random al posto degli 0 nelle proprietà "punti" fatti e "falli subiti".
-//Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti 
-// e stampiamo tutto in console.
 
-
-
-
-let points = Math.floor(Math.random() * 10);
+let points = Math.floor(Math.random() * 50);
 let fouls = Math.floor(Math.random() * 10);
+
 const players = [
     {
         name: "Andrea",
@@ -52,24 +48,54 @@ const players = [
         fouls:  fouls,
     },
     {
-        nome: "Antonio",
+        name: "Antonio",
         points: points,
         fouls:  fouls,
        
     },
     {
-        nome: "Alessio",
+        name: "Alessio",
         points: points,
         fouls:  fouls,
     },
     {
-        nome: "Angelo",
+        name: "Angelo",
         points: points,
         fouls:  fouls,
     },
 ]
-console.log(points);
-console.log(fouls);
-console.log(players);
+
+console.table(players);
+
+//Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti 
+// e stampiamo tutto in console.
+ const player = [
+    {
+        name: "Andrea",
+        points: points,
+        fouls:  fouls,
+    },
+    {
+        name: "Antonio",
+        points: points,
+        fouls:  fouls,
+       
+    },
+    {
+        name: "Alessio",
+        points: points,
+        fouls:  fouls,
+    },
+    {
+        name: "Angelo",
+        points: points,
+        fouls:  fouls,
+    },
+]
+
+
+
+
+
 
 
