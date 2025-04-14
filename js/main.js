@@ -69,29 +69,30 @@ console.table(players);
 
 //Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti 
 // e stampiamo tutto in console.
- const player = [
+ 
+let fouls1 = Math.floor(Math.random() * 5);
+const player = [
     {
         name: "Andrea",
-        points: points,
-        fouls:  fouls,
+        fouls1:  fouls,
     },
     {
         name: "Antonio",
-        points: points,
-        fouls:  fouls,
+        fouls1:  fouls,
        
     },
     {
         name: "Alessio",
-        points: points,
-        fouls:  fouls,
+        fouls1:  fouls,
     },
     {
         name: "Angelo",
-        points: points,
-        fouls:  fouls,
+        fouls1:  fouls,
     },
 ]
+
+console.table(player);
+
 
 
 
